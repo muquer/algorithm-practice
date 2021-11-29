@@ -1,3 +1,7 @@
+'''
+Binary search on an ordered array with offset
+'''
+
 def binary_search_shifted(arr, value, start, end):
     
     if start > end: return -1

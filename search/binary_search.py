@@ -1,3 +1,7 @@
+'''
+Binary search on an ordered array
+'''
+
 def binary_search(arr, value, start, end):
     
     if start > end: return -1
